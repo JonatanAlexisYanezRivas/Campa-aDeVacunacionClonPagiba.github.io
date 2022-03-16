@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacunación</title>
+    <!-- Css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+   
+    <header>
+        <section class="head">
+            <nav class="nav">
+                <div class="nav_container">
+                    <h1 class="nav_logo">Vaccination</h1>
+
+                    <label for="menu" class="nav_label">
+                        <img src="assets/menu.svg" alt="aaset" class="nav_img">
+                    </label>
+
+                    <input type="checkbox" id="menu" class="nav_input">
+
+                    <div class="nav_menu">
+                        <a href="#one" class="nav_item">Database</a>
+                        <a href="#" class="nav_item">Education</a>
+                        <a href="#" class="nav_item">News</a>
+                        <a href="#" class="nav_item">Regulation</a>
+                        <a href="#" class="nav_item">Hoax Buster</a>
+                    </div>
+                </div>
+            </nav>
+        </section>
+    </header>
+  
+    
+    <section id="one">
+        <div class="divTextOne">
+            <h3 class="title">Fight Virus With Vaccines</h3>
+            <p class="text">Let's stop this pandemic by killing the virus with a vaccine, don't let yourself and your family get infected</p>
+            
+            <div class="containerIcon">
+                <ul class="listIcon">
+                    <li><img src="assets/iconShield.png" alt="shield" class="iconOne"></li>
+                    <li><p class="textIcon">Best protecttion</p></li>
+                </ul>
+            </div>
+
+            <div class="containerIcon">
+                <ul class="listIcon">
+                    <li><img src="assets/iconStar.png" alt="shield" class="iconOne"></li>
+                    <li> <p class="textIcon">Selected Vaccines</p></li>
+                </ul>
+            </div>
+
+            <div class="containerIcon">
+                <ul class="listIcon">
+                    <li><img src="assets/clock.svg" alt="shield" class="iconOne"></li>
+                    <li><p class="textIcon">Schedule your vaccinations</p></li>
+                </ul>
+            </div>
+
+            
+        </div>
+
+        <div class="imgOne">
+            <img src="assets/nurse.png" alt="nurse" class="imgNurse"> 
+        </div>
+
+        <div class="containerForm">
+            <div class="IconForm">
+                <img src="assets/location.svg" alt="location" class="imgForm"> Location
+                <select class="selectForm">
+                    <option class="inputs">Estado</option>
+                <option value="Aguascalientes">
+                    Aguascalientes
+                </option>
+                <option value="Baja california">
+                    Baja california
+                </option>
+                <option value="Baja Californi Sur">
+                    Baja Californi Sur
+                </option>
+                <option value="Campeche">
+                    Campeche
+                </option>
+                <option value="Coahuila de Zaragoza">
+                    Coahuila de Zaragoza
+                </option>
+                <option value="Colima">
+                    Colima
+                </option>
+                <option value="Chiapas">
+                    Chiapas
+                </option>
+                <option value="Chihuahua">
+                    Chihuahua
+                </option>
+                <option value="Ciudad de Mexico">
+                    Ciudad de México
+                </option>
+                <option value="Durango">
+                    Durango
+                </option>
+                <option value="Guanajuato">
+                    Guanajuato
+                </option>
+                <option value="Guerrero">
+                    Guerrero
+                </option>
+                <option value="Hidalgo">
+                    Hidalgo
+                </option>
+                <option value="Jalisco">
+                    Jalisco
+                </option>
+                <option value="México">
+                    México
+                </option>
+                <option value="Michoacan de Ocampo">
+                    Michoacán de Ocampo
+                </option>
+                <option value="Morelos">
+                    Morelos
+                </option>
+                <option value="Nayarit">
+                    Nayarit
+                </option>
+                <option value="	Nuevo Leon">
+                    Nuevo León
+                </option>
+                <option value="Oaxaca">
+                    Oaxaca
+                </option>
+                <option value="Puebla">
+                    Puebla
+                </option>
+                <option value="Queretaro">
+                    Querétaro
+                </option>
+                <option value="	Quintana Roo">
+                    Quintana Roo
+                </option>
+                <option value="San Luis Potosí">
+                    San Luis Potosí
+                </option>
+                <option value="	Sinaloa">
+                    Sinaloa
+                </option>
+                <option value="Sonora">
+                    Sonora
+                </option>
+                <option value="Tabasco">
+                    Tabasco
+                </option>
+                <option value="Tamaulipas">
+                    Tamaulipas
+                </option>
+                <option value="Tlaxcala">
+                    Tlaxcala
+                </option>
+                <option value="Veracruz de Ignacio de la Llave">
+                    Veracruz de Ignacio de la Llave
+                </option>
+                <option value="Yucatán">
+                    Yucatán
+                </option>
+                <option value="Zacatecas">
+                    Zacatecas
+                </option>
+                </select>
+            </div>
+
+            <div class="IconForm">
+                <img src="assets/date.svg" alt="date" class="imgForm"> Date
+                <input type="date" id="date" name="date">
+            </div>
+
+            <div class="IconForm">
+                <img src="assets/vaccine.svg" alt="date" class="imgForm"> Vaccine Type
+                <select class="selectForm">
+                    <option value="">Choose</option>
+                    <option value="Moderna">Moderna</option>
+                    <option value="Aztrazena">Aztrazeneca</option>
+                    <option value="MadreRusia">MadreRusioa</option>
+                </select>
+            </div>
+
+            <div class="IconForm">
+                <input type="submit" class="btnForm" value="Submit">
+            </div>
+        </div>
+
+        <div class="triangulo1"></div>
+        <div class="triangulo2"></div>
+
+        <div class="logosVacunas">
+            <ul class="listVacunas">
+                <li class="itemVacuna">
+                    <img src="assets/astrazeneca.png" alt="aztra" class="imgVacuna">
+                </li>
+                <li class="itemVacuna">
+                    <img src="assets/sinovac.png" alt="sinoc" class="imgVacuna">
+                </li>
+                <li class="itemVacuna">
+                    <img src="assets/Pfizer.png" alt="pfizer" class="imgVacuna">
+                </li>
+                <li class="itemVacuna">
+                    <img src="assets/moderna.png" alt="moderna" class="imgVacuna">
+                </li>
+                
+            </ul>
+        </div>
+    </section>
+
+    <section id="two">
+        <div class="divTextTwo">
+            <h3 class="title">Why should I vaccine?</h3>
+            <p class="text">In order to avoid any doubts about getting the COVID-19 vaccine, identify the following 4 benefits of COVID-19 vaccination: </p>          
+        </div>
+
+    <div class="cards">
+        <div class="containerCard">
+            <div class="divIcon">
+               <img src="assets/virus.svg" alt="virus" class="imgCard" >
+            </div>
+            <p class="titleCard">Minize the spread of viruses</p>
+            <p class="textCard"> Vaccine has been proven effective to prevent someone from grettin infected with Coronavirus</p>
+        </div>
+
+        <div class="containerCard">
+            <div class="divIcon">
+                <img src="assets/shield.svg" alt="virus" class="imgCard">
+            </div>
+            <p class="titleCard">Forming antibodies</p>
+            <p class="textCard"> COVID-19 vaccine proven to help shape antibody response for immune system</p>
+        </div>
+
+        <div class="containerCard">
+            <div class="divIcon">
+                <img src="assets/family.svg" alt="virus" class="imgCard">
+            </div>
+            <p class="titleCard">Protecting people nearby</p>
+            <p class="textCard"> The benefits of COVID-19 vaccination are the vacinne that we get can also help protect people around us</p>
+        </div>
+
+        <div class="containerCard">
+            <div class="divIcon">
+                <img src="assets/line.svg" alt="virus" class="imgCard">
+            </div>
+            <p class="titleCard">Creating group immunity</p>
+            <p class="textCard">COVID-19 vaccination is also beneficial for creating group immunity or herd immunity</p>
+        </div>
+    </div>
+
+        <div class="triangulo3"></div>
+        <div class="line"></div>
+        
+
+    </section>
+
+    <section id="three">
+        <div class="triangulo4"></div>
+        <div class="line1"></div>
+        <div class="divTextThree">
+            <h3 class="title">Preparations Before Vaccine</h3>
+            <p class="text">The succes of vaccines is strongly influenced by the strength of the body's immune system. Therefore, there are several things that can be tried to make COVID-19 vaccine work: </p>          
+        </div>
+
+        <div class="divimgPreparations">
+            <img src="assets/girl.png" alt="girl">
+        </div>
+
+        <div class="listPreparations">
+            <div class="preparationsIcon">
+                <div class="divPreparations">
+                    <img src="assets/shieldX.svg" alt="virus" class="imgCard">
+                </div>
+                <p class="titleCard">Avoid alcoholic beverages</p>
+                <div class="divPreparations">
+                    <img src="assets/arrow.svg" alt="virus" class="imgCardArrow">
+                </div>
+            </div>
+
+            <div class="preparationsIcon">
+                <div class="divPreparations">
+                    <img src="assets/x.svg" alt="virus" class="imgCard">
+                </div>
+                <p class="titleCard">Avoid stress</p>
+                
+                <div class="divPreparations">
+                    <img src="assets/arrow.svg" alt="virus" class="imgCardArrow">
+                </div>
+            </div>
+
+            <div class="preparationsIcon">
+                <div class="divPreparations">
+                    <img src="assets/graph.svg" alt="virus" class="imgCard">
+                </div>
+                <p class="titleCard">Eat healthy food</p>
+                
+                <div class="divPreparations">
+                    <img src="assets/arrow.svg" alt="virus" class="imgCardArrow">
+                </div>
+            </div>
+
+            <div class="preparationsIcon">
+                <div class="divPreparations">
+                    <img src="assets/nice.svg" alt="virus" class="imgCard">
+                </div>
+                <p class="titleCard">Get enough sleep</p>
+                
+                <div class="divPreparations">
+                    <img src="assets/arrow.svg" alt="virus" class="imgCardArrow">
+                </div>
+            </div>
+
+            <div class="preparationsIcon">
+                <div class="divPreparations">
+                    <img src="assets/heart.svg" alt="virus" class="imgCard">
+                </div>
+                <p class="titleCard">Exercise or physical activity</p>
+                
+                <div class="divPreparations">
+                    <img src="assets/arrow.svg" alt="virus" class="imgCardArrow">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="four">
+        
+        <div class="divTextFour">
+            <h3 class="title">Preparations Before Vaccine</h3>
+            <p class="text">The succes of vaccines is strongly influenced by the strength of the body's immune system. Therefore, there are several things that can be tried to make COVID-19 vaccine work: </p>          
+                <div class="contact">
+                    <div class="contactElements">
+                        <p class="titleCard ">
+                        <img src="assets/call.svg" alt="" class="imgCard align">
+                        <span class="spanContact">Call</span>
+                            <p class="textCard">
+                               <span class="spanContactText"> 021.123.145.14</span>
+                            </p>
+                        </p>
+                       
+                        <input type="button" value="Call Now" class="contactBtn">
+                    </div> 
+
+                    <div class="contactElements">
+                        <p class="titleCard ">
+                        <img src="assets/chat.svg" alt="" class="imgCard align">
+                        <span class="spanContact">Chat</span>
+                            <p class="textCard">
+                               <span class="spanContactText"> 021.123.145.14</span>
+                            </p>
+                        </p>
+                       
+                        <input type="button" value="Chat Now" class="contactBtn">
+                    </div> 
+                </div>
+
+                <div class="contact">
+                    <div class="contactElements">
+                        <p class="titleCard ">
+                        <img src="assets/vide.svg" alt="" class="imgCard align">
+                        <span class="spanContact">Video Call</span>
+                            <p class="textCard">
+                               <span class="spanContactText"> 021.123.145.14</span>
+                            </p>
+                        </p>
+                       
+                        <input type="button" value="Video Call Now" class="contactBtn">
+                    </div> 
+
+                    <div class="contactElements">
+                        <p class="titleCard ">
+                        <img src="assets/message.svg" alt="" class="imgCard align">
+                        <span class="spanContact">Message</span>
+                            <p class="textCard">
+                               <span class="spanContactText"> 021.123.145.14</span>
+                            </p>
+                        </p>
+                       
+                        <input type="button" value="Message Now" class="contactBtn">
+                    </div> 
+                </div>
+        </div>
+        <div class="divimgContact">
+            <img src="assets/man.png" alt="girl">
+        </div>
+
+        
+    </section>
+
+    <footer>
+       <table class="table1">
+          <tr>
+              <td class="nav_logo">Vaccination</td>
+          </tr>
+          <tr>
+                <td class="textCard">Our goal is to help the ongoing pandemic</td>
+          </tr>
+       </table>
+
+       <table>
+           <tr>
+               <th class="titleCard">About</th>
+           </tr>
+           <tr>
+               <td class="textCard itemsFooter">About us</td>
+           </tr>
+           <tr>
+            <td class="textCard itemsFooter">Features</td>
+           </tr>
+           <tr>
+            <td class="textCard itemsFooter">News & Blog</td>
+           </tr>
+       </table>
+
+       <table>
+            <tr>
+                <th class="titleCard">Company</th>
+            </tr>
+            <tr>
+                <td class="textCard itemsFooter">How we Work?</td>
+            </tr>
+            <tr>
+            <td class="textCard itemsFooter">Capital</td>
+            </tr>
+            <tr>
+            <td class="textCard itemsFooter">Security</td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <th class="titleCard">Support</th>
+            </tr>
+            <tr>
+                <td class="textCard itemsFooter">FAQs</td>
+            </tr>
+            <tr>
+            <td class="textCard itemsFooter">Support Center</td>
+            </tr>
+            <tr>
+            <td class="textCard itemsFooter">Contact Us</td>
+            </tr>
+        </table>
+        <br>
+        <span class="textCard">@2021 Vacinnation. All rights reserved</span> <span class="textCard">Temas & Agreements</span><span class="textCard">Privacy Policy</span>
+        <div class="triangulo5"></div>
+    </footer>
+</body>
+</html>

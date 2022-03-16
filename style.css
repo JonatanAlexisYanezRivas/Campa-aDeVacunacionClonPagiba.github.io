@@ -1,0 +1,551 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Navbar */
+.nav{
+    padding: 3rem;
+}
+
+.nav_container{
+    display: flex;
+    margin: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_logo{
+    color: #3050cd;
+    font-size: 2.5rem;
+    margin-left: 5rem;
+}
+
+.nav_menu{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1em;
+}
+
+
+
+.nav_item{
+    text-decoration: none;
+    color: #7583a3;
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.nav_item:hover{
+    background-color: #3050cd;
+    color: white;
+    border-radius: .5rem;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+}
+
+.nav_input, .nav_label{
+    display: none;
+}
+
+/* Primera sección */
+
+
+
+.divTextOne{
+    float: left;
+    width: 50%;
+    padding: 5.5rem;
+    padding-left: 7rem;
+    margin: auto;
+}
+
+.title{
+    color:  #415988  ;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    font-family: 'Roboto Slab', serif;
+}
+
+.text{
+    color: #7382a1 ;
+    font-size: 2.5rem;
+    margin: 1rem;
+    text-align: justify;
+    
+}
+
+.containerIcon{
+    float: left;
+    margin-top: 5rem;
+    margin-left: 3rem;
+}
+
+.iconOne{
+    background: rgba(238, 255, 2, 0.151);
+    border-radius: 0.3rem;
+    width: 2rem;
+}
+
+.textIcon{
+   color: #415988;
+   font-size: 2rem;
+  
+  
+}
+
+.listIcon li{
+    position: flex;
+    display: inline-block;
+    list-style-type: none;
+    padding: 0.5rem;
+}
+
+.imgOne{
+    width: 50%;
+    overflow: hidden; 
+}
+
+.imgNurse{
+    width: 90%;
+    float: right;
+}
+
+/* Form section one*/
+
+.containerForm{
+    z-index: 1;
+
+    background-color: white;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+
+    border-radius: 1rem;
+
+    position: absolute;
+    left: 5rem;
+    top: 70rem;
+    
+    width: 70rem;
+    height: 10rem;
+    
+    display: inline-flex;
+    align-items: center;
+}
+
+.IconForm{
+    margin-right: 3rem;
+    margin-left: 3rem;
+    color: #7382a1;
+    font-size: 1.5rem;
+
+   
+}
+.imgForm{
+    background: rgba(2, 120, 255, 0.068);
+    border-radius: 0.3rem;
+    padding: 0.1rem;
+}
+
+.selectForm{
+    color:  #28467a;
+    font-size: 1rem;
+}
+
+.btnForm{
+    border: none;
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #3050cd;
+    color: white;
+    border-radius: .5rem;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+}
+
+/* Triangulos */
+
+.triangulo1{
+
+    position: absolute;
+    top: 8.5rem;
+    left: 2rem;
+    opacity: 0.2;
+
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 130px 130px 0 130px;
+    border-color: #c5d6e8 transparent transparent transparent;
+}
+
+.triangulo2{
+
+    position: absolute;
+    top: 40rem;
+    left: 51.5rem;
+    opacity: 0.2;
+
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 200px 200px 200px 0;
+    border-color: transparent #c5d6e8 transparent transparent;
+}
+
+/* Second section triangulo */
+.triangulo3{
+
+    position: absolute;
+    top: 100rem;
+    left: 100rem;
+    opacity: 0.2;
+
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 300px 300px 300px 0;
+    border-color: transparent #c5d6e8 transparent transparent;
+}
+
+.line{
+    position: absolute;
+    width: 70rem;
+    height: 0.3rem;
+
+    top: 118.5rem;
+    left: 50rem;
+
+    opacity: 0.2;
+    background-color: #c5d6e8;
+}
+
+/* Three section triangulo */
+
+.triangulo4{
+
+    position: absolute;
+    top: 160rem;
+    left: 0rem;
+    opacity: 0.2;
+
+    width: 0;
+height: 0;
+border-style: solid;
+border-width: 300px 0 300px 300px;
+border-color: transparent transparent transparent #c5d6e8;
+}
+
+.line1{
+    position: absolute;
+    width: 60rem;
+    height: 0.3rem;
+
+    top: 178.5rem;
+    left: 0rem;
+
+    opacity: 0.2;
+    background-color: #c5d6e8;
+}
+
+/* section four Triangulos */
+
+
+/* LogosVacunas */
+
+.logosVacunas{
+   margin: auto;
+}
+
+.imgVacuna{
+    width: 20rem;
+}
+
+.listVacunas{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1em;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.itemVacuna{
+    margin-top: 1rem;
+    opacity: 0.2;
+    list-style: none;
+    filter: grayscale(1);
+}
+
+/* SecondSection */
+
+
+.divTextTwo{
+    width: 55%;
+    padding: 5.5rem;
+    padding-left: 7rem;
+}
+
+.containerCard{
+    border-color: rgb(250, 250, 250);
+    border-width: 0.3rem;
+    border-style: solid;
+    border-radius: 0.5rem;
+    width: 20rem;
+    height: 23rem;
+    padding:2rem;
+    
+   
+    margin-bottom: 1rem;
+}
+
+.containerCard:hover{
+    border: none;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+}
+
+.cards{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1em;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.divIcon{
+   
+  
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 2rem;
+}
+
+.imgCard{
+    width: 4rem;
+    padding: .5rem;
+    padding-top: .7rem;
+    padding-left: .7rem;
+    background: rgba(2, 120, 255, 0.068);  
+    border-radius: 0.3rem;
+}
+
+.titleCard{
+    font-size: 2rem;
+    color:  #465e8c ;
+    margin-bottom: 1rem;
+}
+
+.textCard{
+    font-size: 1.5rem;
+    color:  #a3adc2 ;
+}
+/* three section */
+
+.divTextThree{
+    width: 55%;
+    margin-left: 55rem;
+    padding: 5.5rem;
+    padding-left: 7rem;
+}
+
+.divimgPreparations{
+    width: 50%;
+    float: left;
+}
+
+.listPreparations{
+    width: 50%;
+    overflow: hidden;
+    padding-top: 7rem;
+}
+.preparationsIcon{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1em;
+   
+    align-items: center;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+
+    border-color: rgb(250, 250, 250);
+    border-width: 0.3rem;
+    border-style: solid;
+    border-radius: 0.5rem;
+    width: 40rem;
+    padding: 1rem;
+
+    transition: all ease-in 0.3s;
+}
+
+.preparationsIcon:hover{
+    border: none;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+}
+
+.divPreparations{
+    margin-left: 0;
+}
+
+.imgCardArrow{
+    padding-top: .2rem;
+    padding-left: .2rem;
+    background: rgba(2, 120, 255, 0.068);  
+    border-radius: 0.3rem;
+    float: right;
+}
+
+/* section four */
+
+.divTextFour{
+    width: 55%;
+    padding: 5.5rem;
+    padding-left: 7rem;
+    float: left;
+}
+
+.divimgContact{
+  
+    width: 45%;
+    overflow: hidden;
+}
+
+.contact{
+    margin-top: 5rem;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1em;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contactElements{
+    border-color: rgb(250, 250, 250);
+    border-width: 0.3rem;
+    border-style: solid;
+    border-radius: 0.5rem;
+    width: 20rem;
+    height:15rem;
+    padding:2rem;
+    
+   
+    margin-bottom: 1rem;    
+}
+
+.align{
+    align:right;
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
+
+.spanContact{
+    position: absolute;
+    margin-top: 0.3rem;
+}
+
+.spanContactText{
+    position: absolute;
+    margin-top: -3rem;
+    margin-left: 7rem;
+    font-size: 1.2rem;
+}
+
+.contactBtn{
+    background: rgba(2, 120, 255, 0.068);  
+    font-size: 2rem;
+    color: #3050cd;
+
+    margin: auto;
+
+    
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+
+    width: 15rem;
+}
+
+.contactBtn:hover{
+    background-color: #3050cd;
+    color: white;
+    border-radius: .5rem;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+}
+
+/* Footer */
+
+footer{
+    background-color: #ecf4fc ;
+}
+
+footer span{
+  margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+footer table{
+    width: 10rem;
+
+    position: flex;
+    display: inline-block;
+    list-style-type: none;
+    margin: 5rem;  
+    text-align: left;
+}
+
+.itemsFooter{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+.table1{
+    margin-right: 40rem;
+}
+
+.triangulo5{
+
+    position: absolute;
+    top: 346.6rem;
+    left: 80rem;
+    opacity: 0.7;
+
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 200px 200px 200px;
+    border-color: transparent transparent  #e4ecfc  transparent;
+
+}
+
+/* Media  */
+
+@media (max-width:43.75rem){
+    .nav_label{
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav_menu{
+        position: fixed;
+        top: 5rem;
+        bottom: 0;
+        width: 100%;
+        background-color: #3050cd;
+        left: 0;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        clip-path: circle(0 at center);
+        transition: clip-path 1s ease-in-out;
+    }
+
+    .nav_input:checked + .nav_menu{
+        clip-path: circle(100% at center) ;
+    }
+
+    .nav_item{
+        color: white;
+    }
+}
+
